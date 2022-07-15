@@ -1,0 +1,23 @@
+.pr_boxConteo{
+    border: 1px solid forestgreen;
+    width: 200px;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: forestgreen;
+    color: #ffffff;
+}
+
+.pr_boxConteo_numero{
+    font-size: 40px;
+    line-height: 42px;
+}
+.pr_boxConteo_titulo{
+    font-size: 20px;
+    line-height: 22px;
+}
