@@ -4,9 +4,7 @@ class PR_MODELO{
     /* ======================================================================== 
     *  CREAR TABLAS PARA LA BASE DE DATOS
     *  ========================================================================*/
-
-
-
+    
     public function __CONSTRUCT(){
 
     }
@@ -27,8 +25,6 @@ class PR_MODELO{
             ) COLLATE {$wpdb_collate}"
         );
         dbDelta($created);  
-
-        
     }
 
     /* ======================================================================== 
@@ -52,6 +48,7 @@ class PR_MODELO{
 
         return (int)$visitaActual;
     } 
+    
     /* ======================================================================== 
     *  REALIZA UNA CONSULTA EN LA TABLA Y RETORNA EL TOTAL DE LAS COLUMNAS
     *  ========================================================================*/
