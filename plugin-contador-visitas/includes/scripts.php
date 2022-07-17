@@ -1,6 +1,5 @@
 <?php if(! defined('ABSPATH')) exit;
 function pr_admin_style() {
-
     wp_enqueue_style('pr_admin_style_css', plugins_url('css/style.css', __FILE__ ) );
 }
 
